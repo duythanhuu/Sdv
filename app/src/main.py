@@ -86,7 +86,7 @@ class SampleApp(VehicleApp):
         """The subscribe_topic annotation is used to subscribe for incoming
         PubSub events, e.g. MQTT event for GET_SPEED_REQUEST_TOPIC.
         """
-
+        # Make changes
         # Use the logger with the preferred log level (e.g. debug, info, error, etc)
         logger.debug(
             "PubSub event for the Topic: %s -> is received with the data: %s",
